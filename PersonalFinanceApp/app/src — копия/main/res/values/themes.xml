@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.PersonalFinanceApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#B3E5FC</item> <!-- Светло-голубой -->
+        <item name="colorOnPrimary">#000000</item>
+        <item name="colorSecondary">#F8BBD9</item> <!-- Розовый -->
+        <item name="colorOnSecondary">#000000</item>
+        <item name="colorSurface">#E3F2FD</item> <!-- Мятный фон -->
+        <item name="colorOnSurface">#000000</item>
+        <item name="android:statusBarColor">#B3E5FC</item>
+    </style>
+    <style name="Theme.PersonalFinanceApp" parent="Base.Theme.PersonalFinanceApp" />
+</resources>

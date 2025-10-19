@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <Button
+        android:id="@+id/startDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Дата начала"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/light_gray"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/endDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Дата окончания (опционально)"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/light_gray"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/timeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Время"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/light_gray"
+        android:layout_marginBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/periodicitySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginBottom="8dp"
+        android:padding="6dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/titleEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Название"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/black"
+        android:inputType="text"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/amountEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Сумма"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/black"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранить"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/button_dark_blue" />
+
+</LinearLayout>

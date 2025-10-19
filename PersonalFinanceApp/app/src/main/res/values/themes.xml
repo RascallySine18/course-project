@@ -1,0 +1,5 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.PersonalFinanceApp" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+    <style name="Theme.PersonalFinanceApp" parent="Base.Theme.PersonalFinanceApp" />
+</resources>

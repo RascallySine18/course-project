@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="button_dark_green">#1B5E20</color>
+    <color name="button_dark_blue">#0D47A1</color>
+    <color name="button_dark_red">#D32F2F</color>
+    <color name="button_expense">#0288D1</color>
+    <color name="button_dark_green_pressed">#143D17</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="color1">#FF5733</color>
+    <color name="color2">#FFC300</color>
+    <color name="color3">#DAF7A6</color>
+    <color name="color4">#581845</color>
+    <color name="color5">#900C3F</color>
+    <color name="color6">#C70039</color>
+</resources>

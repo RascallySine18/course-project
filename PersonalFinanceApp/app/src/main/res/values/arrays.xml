@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="periods">
+        <item>День</item>
+        <item>Неделя</item>
+        <item>Месяц</item>
+        <item>Год</item>
+        <item>Выбрать год</item>
+    </array>
+    <array name="periodicities">
+        <item>Ежедневно</item>
+        <item>Еженедельно</item>
+        <item>Ежемесячно</item>
+        <item>Ежегодно</item>
+    </array>
+    <array name="categories">
+        <item>Продукты</item>
+        <item>Транспорт</item>
+        <item>Развлечения</item>
+        <item>Другое</item>
+    </array>
+</resources>

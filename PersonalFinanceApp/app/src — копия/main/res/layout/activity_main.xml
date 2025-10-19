@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/balanceText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Баланс: 0 ₽"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/addIncomeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить доход"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/button_dark_green"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/addExpenseBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить расход"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/button_expense"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/viewTransactionsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Просмотр транзакций"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/button_dark_blue"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/changeBackgroundBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Изменить фон"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/button_dark_blue"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выход"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/button_dark_red" />
+
+</LinearLayout>

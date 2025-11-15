@@ -48,7 +48,7 @@
 
 1. Склонируйте репозиторий:
    ```bash
-   git clone https://github.com/ваш-логин/personal-finance-tracker.git
+   git clone https://github.com/RascallySine18/personal-finance-tracker.git
 2. Откройте проект в Android Studio
 3. Дождитесь синхронизации Gradle
 4. Запустите приложение на эмуляторе или подключённом устройстве:
